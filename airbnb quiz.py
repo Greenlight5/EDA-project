@@ -4,7 +4,10 @@ a = input("Enter the city:")
 b = input("How many people:")
 c = input("Your trip is in the weekday or weekend?")
 d = input("would you like to stay close to the center  , middle or far?")
-#e = input("")
+a1= './apt2.jpg'
+image_path = a1
+image = Image(image_path)
+display(image)
 #f = input("")
 #g = input("")
 #h = input("")
